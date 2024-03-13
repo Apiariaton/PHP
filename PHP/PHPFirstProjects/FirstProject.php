@@ -1,15 +1,4 @@
-<?php
 
-if (isset($_POST['submit']))
-{
-    echo "<p1> The form was submitted correctly... </p1>";
-}
-
-
-
-
-
-?>
 
 <!DOCTYPE html>
 <html>
@@ -44,12 +33,12 @@ if (isset($_POST['submit']))
     }
 ?>
 <h2>Personal Details Form: </h2>
-<form action="FirstProject.php">
+<form action="FirstProjectFormAction.php">
     <label htmlFor="">Full Name</label>
     <input type="text" name="fullName"></input>
     <label htmlFor="">Age</label>
     <input type="number" name="age"></input>
-    <button type="submit">Submit Form</button>
+    <button type="submit" name="submit">Submit Form</button>
 </form>
 
 </body>
